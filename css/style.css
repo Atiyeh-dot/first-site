@@ -1,43 +1,126 @@
 
 body{
-background-color: #fff5b7;
-text-align: center;
-font-family: 'Times New Roman', Times, serif;
-margin: 0;
-}
+    background-color: #fdffff;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    }
+
+h1{
+        font-weight: bolder;
+        font-family:'Niconne',cursive;
+        color: #1e5566;
+        font-size:  2rem ;
+        margin: 0 auto;
+        padding-top: 50px;
+        width: 20%;
+    }
+h2{
+        font-weight: lighter;
+        font-family:'Montserrat',sans_serif;
+        color: #03256c;
+        font-size:1.5rem ;
+    }
+.dev1{
+     text-decoration: underline;   
+     font-size: 1.5rem;
+    }
+
+h3{
+        font-family:'Montserrat',sans_serif ;
+        color: #39a9cb;
+       
+    }
+
+
+hr{
+        border: 10px dotted;
+        border-color: #022e57;
+        border-bottom:none;
+        width: 10%;
+    }
+
 .top-container{
-    background-color:#caf7e3;
-    margin: 0px;
-}
+        background-color:#39a6a3;
+        margin-right: auto;
+        margin-left: auto;
+        padding-top: 50px;
+    }
+    
+    .bottom-container{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        height: 125px;
+        padding-top: 30px;
+        background-color:#e2e9c4;
+    }
+    .middle-container{
 
-.bottom-container{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    height: 125px;
-    padding-top: 30px;
-    background-color:#b0d40e;
-}
-.bottom-cloud{
-    position:relative;
-    margin-right: 20%;
-    margin-bottom: 10%;
-    width: 125px;
-    height: 125px;
-}
+     padding: 10px;
+    
+    }
+    .bottom-cloud{
+        position:relative;
+        margin-right: 20%;
+        margin-left:10%;
+        margin-bottom: 10%;
+        width: 200px;
+        height: 135px;
+    }
+    
+    .mountain{
+        position: relative;
+        margin-left: auto;
+        margin-right:200px;
+        width:400px;
+        height: 250px;
+    
+    }
+    .top-cloud{
+        position: relative;
+        margin-left: 50%;
+        width:200px;
+        height:135px;
+    
+    }
+    
+    .greating{
+        color: #303256;
+        font-size: 2rem;
+    }
+    .profile_pic{
+        border-radius: 50%;
+        width: 300px;
+    }
+    .profile{
+        width: 50%;
+        margin: 0 auto 50px;
+    }
+    .skills{
+       margin: 25px auto;
+       width: 50%;
+    
+    }
+    .skill-row{
 
-.mountain{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width:200px;
-    height: 200px;
+       text-align: left;
+       margin: 100px;
 
-}
-.top-cloud{
-    position: relative;
-    margin-left: 30%;
-    width:125px;
-    height:125px;
-
-}
+    }
+    p{
+        line-height: 2;
+        font-family:'mali' ;
+    }
+    .teaching-skill{
+       width: 25%;
+       float: left;
+       margin-right: 25px;
+      
+    }
+    .coding-skill{
+        width: 25%;
+        float: right;
+        margin-left: 25px;
+    }
+    
